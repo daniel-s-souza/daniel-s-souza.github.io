@@ -40,7 +40,10 @@ a{
     color: #363636
     
 }
-img{
+.img{
     border-radius: 50%;
+    float: right;
+   
+    
     
 }
