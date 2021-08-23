@@ -64,5 +64,17 @@ a{
     right: 1px;
 }
 
+ol li:nth-child(odd){
+background-color: #D3D3D3;
+
+}
+
+.list-container{
+    text-align: center;
+    max-width: 500px;
+    float: left;
+    margin: 40px;
+}
+
 
 
