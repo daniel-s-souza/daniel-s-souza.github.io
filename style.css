@@ -6,9 +6,11 @@
 
 body{
     background-color: #E8E8E8 ;
+    padding: 3%;
 }
 .sub-title{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Poiret One', cursive;
+
 }
 
 p,li{
@@ -41,12 +43,26 @@ a{
     
 }
 .img{
-    border-radius: 50%;
-    float: right;
-   
- 
+    float: left;
+    height: 280px ;
 }
-.img2{
-    border-radius: 15px;
+
+.image-container{
+    height: 280px;
+    background-color:	#D3D3D3;
+    margin: 20px;
 }
+
+.description-container{
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 80px;
+    padding:20px 30px;
+    max-width: 80%;
+    max-height: 200px;
+    position: relative;
+    right: 1px;
+}
+
+
 
