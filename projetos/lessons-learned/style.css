@@ -1,0 +1,134 @@
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+#cabecalho {
+  position: fixed;
+  background-color: cornflowerblue;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+#rodape {
+  position: fixed;
+  background-color: cornflowerblue;
+  bottom: 0;
+  width: 100%;
+  font-family: Special Elite, cursive;
+  text-align: center;
+}
+
+#titulo {
+  text-align: center;
+  color: black;
+  font-size: 40px;
+  font-family: Special Elite, cursive;
+}
+
+#minha_foto {
+  position: absolute;
+  float: left;
+  width: 30%;
+  padding: 20px;
+  margin-top: 100px;
+}
+
+.links {
+  position: fixed;
+  top: 75px;
+  right: 20px;
+  height: 30px;
+  padding: 10px;
+  border-radius: 20px;
+  z-index: 1;
+  background-color: gainsboro;
+  display: inline-block;
+}
+
+.github {
+  width: 90px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+
+.linkedin {
+  width: 30px;
+  margin-bottom: 10px;
+}
+
+a {
+  margin: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+#article {
+  background-color: gainsboro;
+  max-width: 30%;
+  font-size: 30px;
+  font-family: Amatic SC, cursive;
+  line-height: 2;
+  border-radius: 10px;
+  position: absolute;
+  text-align: center;
+  margin-top: 120px;
+}
+
+#destaque {
+  font-size: 30px;
+  font-family: Amatic SC, cursive;
+  position: relative;
+}
+
+#licoes_aprendidas , #licoes_a_aprender {
+  font-family: Amatic SC, cursive;
+  font-size: 30px;
+  position: relative;
+  height: 500px;
+  display: inline-block;
+  left: 1000px;
+  margin-top: 600px;
+  bottom: 20px;
+}
+
+#article , #destaque {
+  display: inline-block;
+}
+
+.lado-esquerdo {
+  float: left;
+  margin-left: 600px;
+  margin-top: 100px;
+}
+
+.lado-direito {
+  float: right;
+  max-width: 30%;
+  margin-right: 50px;
+  background-color: gainsboro;
+  margin-top: 150px;
+  height: 350px;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 2;
+}
+
+#table tr td {
+  background-color: whitesmoke;
+}
+
+.diff {
+  background-color: gainsboro;
+}
+
+#table {
+  width: 50%;
+  font-family: Amatic SC, cursive;
+  font-size: 25px;
+  position: absolute;
+  top: 600px;
+  left: 20px;
+}
