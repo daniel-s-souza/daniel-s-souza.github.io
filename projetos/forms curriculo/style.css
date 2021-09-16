@@ -1,0 +1,126 @@
+body{
+  background-color: lightgray;
+}
+.header {
+  color: darkslategrey;
+  background-color: whitesmoke;
+  border: 1px solid silver;
+  border-radius: 15px;
+  text-align: center;
+  margin-top: 50px;
+  max-width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px;
+}
+
+.fieldset {
+  margin-left: auto;
+  margin-top: 50px;
+  padding: 60px;
+  margin-right: auto;
+  max-width: 40%;
+  color: darkslategrey;
+  background-color: whitesmoke;
+  border: 1px solid silver;
+  border-radius: 15px;
+}
+
+#name-input {
+  max-width: 100%;
+}
+
+#title {
+  font-size: 30px;
+}
+
+#name-label {
+  font-size: 20px;
+}
+
+#name-input {
+  width: 85.5%;
+}
+
+#mail-label {
+  font-size: 20px;
+}
+
+#email-input {
+  width: 50%;
+}
+
+#cpf-label {
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+#end-label {
+  font-size: 20px;
+}
+
+#city {
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+#state {
+  font-size: 20px;
+  margin-left: 10px;
+  max-width: 100%;
+}
+
+#living-label {
+  font-size: 20px;
+}
+
+#living-label , #living-type , #living-type2 {
+  display: inline-block;
+}
+
+#abstract-cv {
+  font-size: 20px;
+}
+
+#abstract {
+  resize: none;
+  width: 100%;
+  border-radius: 5px;
+}
+
+#last-job {
+  font-size: 20px;
+}
+
+#cargo {
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#job {
+  font-size: 20px;
+}
+
+#description {
+  width: 100%;
+  resize: none;
+  border-radius: 5px;
+}
+
+.data {
+  font-size: 20px;
+}
+
+#save-btn {
+  background-color: whitesmoke;
+  color: darkslategrey;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 500px;
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 20px;
+  box-shadow: 2px 2px 2px;
+}
