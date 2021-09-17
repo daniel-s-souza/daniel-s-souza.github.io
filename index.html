@@ -1,30 +1,145 @@
     <!DOCTYPE html>
     <html lang="pt-br">
     <head>
-        <meta charset="UTF-8">
-        <title>Portifólio Web</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+      <meta charset="UTF-8">
+      <title>Portifólio Web</title>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+      <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
-      <header id="cabecalho">
-        <h1 id="title">Daniel Santana de Souza</h1>
-      </header>
-      <a href="https://github.com/daniel-s-souza" target="_blanck"><img id="logo-git" src="GitHub-Logo.png" alt="logo github"></a>
+      <header class="box" id="cabecalho">
+        <h1 class="title is-1" id="title">Daniel Santana de Souza</h1>
+     
+      <a href="https://github.com/daniel-s-souza" target="_blanck"><figure class="image is-128x128"><img  id="logo-git" src="GitHub-Logo.png" alt="logo github"></figure></a>
       <br>
-      <a href="https://www.linkedin.com/in/daniel-s-de-souza/" target="_blanck"><img id="linkedin" src="LI-In-Bug.png" alt="logo linkedin"></a>
-      <section id="sobre">
-        <h2 id="subtitle">Sobre:</h2>
+      <a href="https://www.linkedin.com/in/daniel-s-de-souza/" target="_blanck"><figure class="image is-64x64"><img id="linkedin" src="LI-In-Bug.png" alt="logo linkedin"></figure></a>
+    </header>
+      <section class="box" id="sobre">
+        <div class="media-left">
+        <figure class="image is-128x128">
+          <img src="photo1629151980.jpeg" alt="">
+        </figure>
+      </div>
+        <h2 class="subtitle is-4" id="subtitle">Sobre:</h2>
+        <div class="content">
         <p id ="paragrafo"><em> Me chamo Daniel, sou formado em técnico em mecânica e estou estudando desenvolvimento web. Minhas paixões são varias, gosto de quadrinhos, games e hoje posso dizer que adquiri uma novo gosto em programar!! Minha jornada na programação começou na Trybe e ainda tenho muito a conquistar.</em></p>
+      </div>
       </section>
-      <section id="section">
-        <h3 id="subititle2">Alguns projetos realizados na trybe</h3>
+      <section class="box" id="section">
+        <h3  class="subtitle is-4" id="subititle2">Alguns projetos realizados na trybe</h3>
         <p id="paragrafo2">Aqui vou postando alguns projetos realizados ao longo do curso e a evolução adquirida.</p>
       </section>
-      <div>
-      <a id="projeto1" href="projetos/lessons-learned/"target="_blanck">Projeto lessons-learned</a>
-      <a id="projeto2" target="_blanck" href="projetos/todo-list/">Projeto Todo-list</a>
-      <a id="projeto3" href="projetos/pixel-art/" target="_blanck">Projeto Pixel-art (em desenvolvimento)</a>
-      <a id="projeto4" target="_blanck" href="projetos/6.1/">Formulário criado, exerciccio bloco 6</a>
-    </div>
+      <br>
+      <br>
+      <div id="lessons-learned" class="box">
+        <article class="media">
+          <div class="media-left">
+            <figure class="image is-64x64">
+              <img src="Captura de tela de 2021-09-16 15-14-10.png" alt="Image">
+            </figure>
+          </div>
+          <div class="media-content">
+            <div class="content">
+              <a href="projetos/lessons-learned/" target="_blanck">lessons-learned</a>
+            </div>
+            <nav class="level is-mobile">
+              <div class="level-left">
+                <a class="level-item" aria-label="reply">
+                  <span class="icon is-small">
+                    <i class="fas fa-reply" aria-hidden="true"></i>
+                  </span>
+                </a>
+                <a class="level-item" aria-label="retweet">
+                  <span class="icon is-small">
+                    <i class="fas fa-retweet" aria-hidden="true"></i>
+                  </span>
+                </a>
+                <a class="level-item" aria-label="like">
+                  <span class="icon is-small">
+                    <i class="fas fa-heart" aria-hidden="true"></i>
+                  </span>
+                </a>
+              </div>
+            </nav>
+          </div>
+        </article>
+      </div>
+      <div id="todo-list" class="box">
+        <article class="media">
+          <div class="media-left">
+            <figure class="image is-64x64">
+              <img src="Captura de tela de 2021-09-17 10-33-44.png" alt="Image">
+            </figure>
+          </div>
+          <div class="media-content">
+            <div class="content">
+              <a href="projetos/todo-list/" target="_blanck">Todo-list</a>
+            </div>
+            <nav class="level is-mobile">
+              <div class="level-left">
+                <a class="level-item" aria-label="reply">
+                  <span class="icon is-small">
+                    <i class="fas fa-reply" aria-hidden="true"></i>
+                  </span>
+                </a>
+                <a class="level-item" aria-label="retweet">
+                  <span class="icon is-small">
+                    <i class="fas fa-retweet" aria-hidden="true"></i>
+                  </span>
+                </a>
+                <a class="level-item" aria-label="like">
+                  <span class="icon is-small">
+                    <i class="fas fa-heart" aria-hidden="true"></i>
+                  </span>
+                </a>
+              </div>
+            </nav>
+          </div>
+        </article>
+      </div>
+      <div id="pixel-art" class="box">
+        <article class="media">
+          <div class="media-left">
+            <figure class="image is-32x32">
+              <img src="Captura de tela de 2021-09-17 10-40-49.png" alt="Image">
+            </figure>
+          </div>
+          <div class="media-content">
+            <div class="content">
+              <a href="projetos/pixel-art/" target="_blanck">Pixel-Art</a>
+            </div>
+            <nav class="level is-mobile">
+              <div class="level-left">
+                <a class="level-item" aria-label="reply">
+                  <span class="icon is-small">
+                    <i class="fas fa-reply" aria-hidden="true"></i>
+                  </span>
+                </a>
+                <a class="level-item" aria-label="retweet">
+                  <span class="icon is-small">
+                    <i class="fas fa-retweet" aria-hidden="true"></i>
+                  </span>
+                </a>
+                <a class="level-item" aria-label="like">
+                  <span class="icon is-small">
+                    <i class="fas fa-heart" aria-hidden="true"></i>
+                  </span>
+                </a>
+              </div>
+            </nav>
+          </div>
+        </article>
+      </div>
+
+      
+      <footer class="footer">
+        <div class="content has-text-centered">
+          <p>
+            <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
+            <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
+            is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+          </p>
+        </div>
+      </footer>
     </body>
     </html>

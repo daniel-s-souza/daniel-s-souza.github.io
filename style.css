@@ -1,97 +1,46 @@
 body{
   background-color: silver;
 }
-#cabecalho {
-  background-color: whitesmoke;
-  border: 2px solid lightslategrey;
-  border-radius: 15px;
-  margin-left: 0px;
-  margin-top: 0px;
-  margin-right: 0px;
-  height: 160px
-}
 
-#title {
-  color: lightslategrey;
-  font-size: 50px;
-  padding: 15px;
+#sobre, #section {
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
-  margin-left: 500px;  
-}
-
-#logo-git {
   position: relative;
-  width: 100px;
-  margin-left: 20px;
-  bottom: 50px;
+  top: 50px;
 }
 
 #linkedin {
   position: relative;
-  width: 40px;
-  margin-left: 20px;
-  left: 120px;
-  bottom: 80px;
+  left: 150px;
+  bottom: 150px;
 }
 
-#sobre {
+#logo-git {
   position: relative;
-  background-color: whitesmoke;
-  max-width: 50%;
-  border: 2px solid lightslategray;
-  margin-left: auto;
-  margin-right: auto;
+  top: 15px;
 }
 
-#subtitle {
-  text-align: center;
-  font-size: 25px;
-  color: lightslategray;
+header {
+  height: 210px;
 }
 
-#paragrafo {
-  text-align: center;
-  max-width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 18px;
-  margin-bottom: 30px;
-}
-
-#section {
+#lessons-learned, #todo-list, #pixel-art {
   position: relative;
-  top: 40px;
-  background-color: whitesmoke;
-  max-width: 50%;
-  border: 2px solid lightslategray;
-  margin-left: auto;
+  max-width: 35%;
   margin-right: auto;
-}
-
-#subititle2 {
+  margin-left: auto;
+  font-size: 20px;
   text-align: center;
-  font-size: 25px;
-  color: lightslategray;
-}
-
-#paragrafo2 {
-  text-align: center;
-  max-width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 18px;
-  margin-bottom: 30px;
-}
-
-#projeto1, #projeto2, #projeto3, #projeto4 {
-  position: relative;
-  left: 460px;
-  top: 100px;
-  margin-left: auto;
-  margin-right: auto;
   text-decoration: none;
-  border: 2px solid lightslategrey;
-  padding: 15px;
-  color: lightslategrey;
-  background-color: whitesmoke;
+  color: black;  
+}
+
+#paragrafo, #paragrafo2 {
+  font-size: 18px;
+}
+
+#subtitle, #subtitle2 {
+  font-size: 30px;
 }
