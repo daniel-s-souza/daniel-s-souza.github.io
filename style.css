@@ -1,5 +1,6 @@
 body{
   background-color: silver;
+  max-height: 100%;
 }
 
 #sobre, #section {
@@ -28,7 +29,8 @@ header {
 
 #lessons-learned, #todo-list, #pixel-art {
   position: relative;
-  max-width: 35%;
+  width: 20;
+  height: 120px;
   margin-right: auto;
   margin-left: auto;
   font-size: 20px;
@@ -43,4 +45,19 @@ header {
 
 #subtitle, #subtitle2 {
   font-size: 30px;
+}
+
+.main {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footer {
+  position: relative;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
 }
