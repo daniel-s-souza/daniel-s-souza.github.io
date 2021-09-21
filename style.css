@@ -24,11 +24,26 @@ body{
   color: white;
 }
 
+.header .list-nav {
+  display: flex;
+  list-style: none;
+}
+
+.instagram {
+  position: relative;
+  font-size: 35px;
+  color: white;
+  opacity: 0.5;
+  margin-right: 30px;
+  cursor: pointer;
+}
+
 .linkedin {
   position: relative;
   font-size: 35px;
   color: white;
   opacity: 0.5;
+  margin-right: 30px;
   cursor: pointer;
 }
 
