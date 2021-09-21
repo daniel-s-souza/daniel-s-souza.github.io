@@ -1,67 +1,125 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Balsamiq Sans', cursive;
+}
+
 body{
-  background-color: silver;
-  max-height: 100%;
+  background-image: url("1f59b370b102d3a19f3fafd61cf5ccb9.jpg");
+  background-size: cover;
 }
 
-#sobre, #section {
-  max-width: 40%;
-  margin-left: 600px;
-  margin-right: auto;
+.header {
+  background-color: whitesmoke;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.header h1 {
+  margin-left: 50px;
+  font-size: 50px;
+}
+
+.linkedin {
+  position: relative;
+  font-size: 35px;
+  color: black;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.git {
+  position: relative;
+  margin-right: 50px;
+  color: black;
+  font-size: 35px;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+a:hover{
+  opacity: 1;
+}
+
+.sobre{
+  position: relative;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
   text-align: center;
-  position: relative;
-  top: 50px;
-}
-
-#linkedin {
-  position: relative;
-  left: 150px;
-  bottom: 150px;
-}
-
-#logo-git {
-  position: relative;
-  top: 15px;
-}
-
-header {
-  height: 210px;
-}
-
-#lessons-learned, #todo-list, #pixel-art {
-  position: relative;
-  width: 290px;
-  height: 120px;
-  margin-right: auto;
+  top: 30px;
+  margin-top: 50px;
+  width: 80%;
+  justify-content: center;
+  align-content: center;
   margin-left: auto;
-  font-size: 20px;
-  text-align: start;
-  text-decoration: none;
-  color: black;  
+  margin-right: auto;
+  padding: 30px 50px;
+  border-radius: 15px;
+  opacity: 0.8;
 }
 
-#paragrafo, #paragrafo2 {
-  font-size: 18px;
-}
-
-#subtitle, #subtitle2 {
+.sobre h2 {
   font-size: 30px;
 }
 
-.main {
+.sobre p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.projetos {
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  width: 80%;
+  margin-top: 15px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+  opacity: 0.8;
+}
+
+.projetos h3 {
+  font-size: 25px;
+  padding: 20px 30px;
+}
+
+.nav{
   display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
+  background-color: white;
+  justify-content: space-around;
   align-items: center;
-  position: relative;
-  margin-right: 1100px;
-  bottom: 500px;
+  text-align: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px 50px;
+  border-radius: 15px;
+  opacity: 0.8;
 }
 
-.footer {
-  position: relative;
-}
-
-.link {
+.nav a {
   text-decoration: none;
   color: black;
+  font-size: 18px;
+  opacity: 0.7;
+  cursor: pointer;
 }
+
+footer {
+  background-color: white;
+  position: absolute;
+  height: 80px;
+  width: 100%;
+  top: 890px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+

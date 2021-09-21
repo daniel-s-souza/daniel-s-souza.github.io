@@ -2,55 +2,36 @@
     <html lang="pt-br">
     <head>
       <meta charset="UTF-8">
+      <script src="https://kit.fontawesome.com/b09715ba87.js" crossorigin="anonymous"></script>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
       <title>Portifólio Web</title>
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
       <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
-      <header class="box" id="cabecalho">
-        <h1 class="title is-1" id="title">Daniel Santana de Souza</h1>
-     
-      <a href="https://github.com/daniel-s-souza" target="_blanck"><figure class="image is-128x128"><img  id="logo-git" src="GitHub-Logo.png" alt="logo github"></figure></a>
-      <br>
-      <a href="https://www.linkedin.com/in/daniel-s-de-souza/" target="_blanck"><figure class="image is-64x64"><img id="linkedin" src="LI-In-Bug.png" alt="logo linkedin"></figure></a>
-    </header>
-      <section class="box" id="sobre">
-        <div class="media-left">
-        <figure class="image is-128x128">
-          <img src="photo1629151980.jpeg" alt="">
-        </figure>
-      </div>
-        <h2 class="subtitle is-4" id="subtitle">Sobre:</h2>
-        <div class="content">
-        <p id ="paragrafo"><em> Me chamo Daniel, sou formado em técnico em mecânica e estou estudando desenvolvimento web. Minhas paixões são varias, gosto de quadrinhos, games e hoje posso dizer que adquiri um novo gosto em programar!! Minha jornada na programação começou na Trybe e ainda tenho muito a conquistar.</em></p>
-      </div>
-      </section>
-      <section class="box" id="section">
-        <h3  class="subtitle is-4" id="subititle2">Alguns projetos realizados na trybe</h3>
-        <p id="paragrafo2">Aqui vou postando alguns projetos realizados ao longo do curso e a evolução adquirida.</p>
-      </section>
-      <br>
-      <br>
-      <main class="main">
-        <nav class="box" id="lessons-learned">
-          <a class="link" href="projetos/lessons-learned/" target="_blanck"> <img class="image is-64x64" src="Captura de tela de 2021-09-16 15-14-10.png" alt="lessons-learned"> Projeto lessons-learned </a>
-        </nav>
-        <nav class="box" id="todo-list">
-          <a class="link" href="projetos/todo-list/" target="_blanck"><img src="Captura de tela de 2021-09-17 10-33-44.png" class="image is-64x64" alt="todo-list">Projeto todo-list</a>
-        </nav>
-        <nav  class="box" id="pixel-art">
-          <a class="link" href="projetos/pixel-art/" target="_blanck"> <img src="Captura de tela de 2021-09-17 10-40-49.png" class="image is-64x64" alt="pixel-art">Projeto pixel-art</a>
+      <header class="header">
+        <h1>Daniel Santana de Souza</h1>
+        <a class="linkedin" href="https://www.linkedin.com/in/daniel-s-de-souza/" target="_blanck"><i class="fab fa-linkedin"></i></a>
+        <a class="git" href="https://github.com/daniel-s-souza" target="_blanck"><i class="fab fa-github"></i></a>
+      </header>
+      <main>
+        <section class="sobre">
+          <h2>Sobre:</h2>
+          <p>Me chamo Daniel, sou formado em técnico em mecânica e agora estudando desenvolvimento web, sou apaixonado por games, filmes, em especial Star Wars, faço lives por hobby e agora meu mais novo gosto se tornou programar, minha jornada no mundo da tecnologia se deu início na Trybe, mas tenho muito a conquistar.</p>
+        </section>
+        <br>
+        <br>
+        <section class="projetos">
+          <h3><i class="fas fa-laptop"></i>Projetos:</h3>
+        </section>
+        <br>
+        <nav class="nav">
+          <a target="_blanck" href="projetos/lessons-learned/"> lessons-learned</a>
+          <a target="_blanck" href="projetos/pixel-art/"> pixel-art</a>
+          <a target="_blanck" href="projetos/todo-list/">todo-list</a>
         </nav>
       </main>
-     
-
-      
-      <footer class="footer">
-        <div class="content has-text-centered">
-          <p>
-            <strong>Portifólio |</strong> e-mail: danielsantsouza94@gmail.com 
-          </p>
-        </div>
-      </footer>
+      <footer> <p><strong>e-mail:</strong> danielsantsouza94@gmail.com</p></footer>
     </body>
     </html>
