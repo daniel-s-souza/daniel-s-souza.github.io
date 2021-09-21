@@ -2,16 +2,15 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Balsamiq Sans', cursive;
+  font-family: 'Playfair Display SC', serif;
 }
 
 body{
-  background-image: url("1f59b370b102d3a19f3fafd61cf5ccb9.jpg");
-  background-size: cover;
+  background-color: silver;
 }
 
 .header {
-  background-color: whitesmoke;
+  background-color: gray;
   height: 90px;
   display: flex;
   align-items: center;
@@ -22,12 +21,13 @@ body{
 .header h1 {
   margin-left: 50px;
   font-size: 50px;
+  color: white;
 }
 
 .linkedin {
   position: relative;
   font-size: 35px;
-  color: black;
+  color: white;
   opacity: 0.5;
   cursor: pointer;
 }
@@ -35,14 +35,10 @@ body{
 .git {
   position: relative;
   margin-right: 50px;
-  color: black;
+  color: white;
   font-size: 35px;
   opacity: 0.5;
   cursor: pointer;
-}
-
-a:hover{
-  opacity: 1;
 }
 
 .sobre{
@@ -70,6 +66,7 @@ a:hover{
 .sobre p {
   font-size: 18px;
   margin-top: 10px;
+  font-family: 'Spinnaker', sans-serif;
 }
 
 .projetos {
@@ -82,8 +79,13 @@ a:hover{
   margin-right: auto;
 }
 
+.projetos i {
+  color: slategrey;
+  margin-right: 5px;
+}
+
 .projetos h3 {
-  color: white;
+  color: black;
   font-size: 45px;
   padding: 20px 30px;
 }
@@ -108,7 +110,13 @@ a:hover{
   font-size: 18px;
   opacity: 0.8;
   cursor: pointer;
+  font-family: 'Spinnaker', sans-serif;
 }
+
+a:hover{
+  opacity: 1;
+}
+
 
 hr {
   width: 40%;
