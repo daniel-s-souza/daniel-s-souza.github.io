@@ -53,3 +53,11 @@ a {
   cursor: pointer;
   text-decoration: none;
 }
+
+.imgLogo {
+  position: relative;
+  left: -40px;
+  height: 200px;
+  width: 180px;
+  border-radius: 50%;
+}
