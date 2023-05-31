@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Signika', sans-serif;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
