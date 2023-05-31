@@ -8,3 +8,48 @@
   padding: 0;
   position: relative;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #fcfbff;
+  display: flex;
+  justify-content: center;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: lightgrey;
+  border-radius: 10px;
+}
+
+main {
+  width: 1120px;
+}
+
+header {
+  align-items: center;
+  background-color: #fcfbff;
+  box-shadow: 0 1px 0 #ececec;
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+  max-width: 1120px;
+  padding: 5px 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.navBar {
+  display: flex;
+  gap: 30px;
+}
+
+a {
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+}
