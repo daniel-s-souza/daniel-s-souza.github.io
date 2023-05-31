@@ -89,6 +89,53 @@ section#home {
 .homeImg img {
   border-radius: 20px;
   box-shadow: 0 5px 5px;
-  height: 250px;
-  width: 200px;
+  height: 350px;
+  width: 300px;
+}
+
+section#projects {
+  align-items: center;
+  align-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  height: calc(100vh + 80px);
+  justify-content: center;
+  width: 100%;
+}
+
+.projectImg {
+  width: 50%;
+}
+
+.projectImg img {
+  box-shadow: 0 1px 2px #0003;
+  object-fit: cover;
+  width: 80%;
+}
+
+.projectInfo {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  width: 50%;
+}
+
+.swiper {
+  height: 500px;
+  width: 95vw;
+}
+
+.swiper-slide {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 0 30px;
+  text-align: center;
+}
+
+.swiper-button-next, .swiper-button-prev {
+  color: black;
+}
+.swiper-pagination-bullet-active {
+  background-color: black;
 }
