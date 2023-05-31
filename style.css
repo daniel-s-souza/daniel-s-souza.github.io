@@ -139,3 +139,33 @@ section#projects {
 .swiper-pagination-bullet-active {
   background-color: black;
 }
+
+footer {
+  box-shadow: 0 -1px 0 0 #ececec;
+  padding: 50px;
+  text-align: center;
+}
+
+.contactButton {
+  background-color:#1f6feb;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  width: 250px;
+  padding: 20px;
+  border: 0px solid transparent;
+  border-radius: 10px;
+}
+
+.sectionButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 30px;
+  margin-bottom: 50px;
+  opacity: 0.9;
+}
+
+.sectionButton:hover {
+  opacity: 1;
+}
