@@ -94,13 +94,11 @@ a {
 
 section#home {
   align-items: center;
-  background-image: url(./img/bgroundblack.jpg);
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)), url(./img/bgroundblack.jpg);
   background-size: cover;
   display: flex;
   height: calc(100vh + 80px);
   justify-content: space-around;
-  mask-image: linear-gradient(to top, transparent 1%, rgb(32,35,40) 1%);
-  -webkit-mask-image: linear-gradient(to top, transparent 0.1%, rgb(32,35,40) 20%);
   padding: 5px 20px;
   width: 100vw;
   color: white;
@@ -109,6 +107,7 @@ section#home {
 .homeInfo {
   display: flex;
   flex-direction: column;
+  font-size: 25px;
   gap: 15px;
   text-align: justify;
   width: 50%;
